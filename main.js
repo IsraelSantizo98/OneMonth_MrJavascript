@@ -7,3 +7,10 @@ anchor.addEventListener('click', function(){
     //what would you want to write when de even is true
     name.innerHTML = 'Not good bah!';
 })
+//To change the tag a 
+var a_tag = document.querySelector('a');
+//a_tag.innerHTML = "HI";
+//click , and something happing
+a_tag.addEventListener('click', function(){
+    alert('Hello')
+})
